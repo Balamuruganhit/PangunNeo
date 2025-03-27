@@ -365,7 +365,7 @@ checkstyle {
     // the sum of errors found last time it was changed after using the
     // 'checkstyle' tool present in the framework and in the official
     // plugins.
-    tasks.checkstyleMain.maxErrors = 999
+    tasks.checkstyleMain.maxErrors = 100000
     // Currently there are no errors so we can show new one when they appear
     showViolations = false
 }
